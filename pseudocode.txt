@@ -1,0 +1,85 @@
+Matt Algorithm (takes set of pair(start_time, end_time) as class_times)
+--------------
+
+for all class_times:
+{
+    sort by start_time in ascending_order
+    and enqueue to queue
+} 
+
+classroom_list as a new _empty_ list
+index = 0
+
+while queue is not empty:
+{
+    add a new _empty_ classroom_schedule to classroom_list
+
+    dequeue pair of (start_time, end_time) from queue 
+    and add to classroom_schedule in classroom_list at index
+
+    while queue is not empty:
+    {
+        dequeue pair of (start_time, end_time) from queue
+        and store in next_class
+
+        if start_time in next_class is greater than 
+        end_time in last element of classroom_schedule in classroom_list at index
+
+        then:
+            add next_class to classroom_schedule in classroom_list at index
+        otherwise:
+            enqueue next_class to temp_queue
+    }
+
+    index += 1
+    queue = temp_queue
+}
+
+result is classroom_list
+
+
+Traditional Greedy Algorithm (takes set of pair(start_time, end_time) as class_times)
+------------------
+
+for all class_times:
+{
+    sort by start_time in descending_order
+    and push to stack
+}
+
+classroom_list as new _empty_ list
+
+while stack is not empty:
+{
+    pop stack and store element as next_class
+    index = 0
+    continue = false
+
+
+    while continue is false:
+    {
+        if index is greater than or equal to size of classroom_list
+
+        then:
+        {
+            add a new _empty_ classroom_schedule to classroom_list
+            add next_class to classroom_schedule in classroom_list at index
+            continue = true
+        }
+
+        else if start_time of next_class is greater than 
+        end_time in last element of classroom_schedule in classroom_list at index
+
+        then:
+        {
+            pop stack onto classroom_schedule in classroom_list at index
+            continue = true
+        }
+
+        otherwise:
+            index += 1
+    }
+
+}
+
+result is classroom_list

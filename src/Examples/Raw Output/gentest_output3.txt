@@ -1,0 +1,44 @@
+File generated March 11, 2021 - 00:48:51
+
+Minimum classrooms: 8
+---------
+
+Classroom 1:
+----------------
+Class 1: (2-26)
+Class 2: (30-45)
+Class 3: (46-50)
+
+Classroom 2:
+----------------
+Class 1: (8-50)
+
+Classroom 3:
+----------------
+Class 1: (25-28)
+Class 2: (35-47)
+Class 3: (49-50)
+
+Classroom 4:
+----------------
+Class 1: (26-36)
+Class 2: (39-41)
+Class 3: (42-43)
+
+Classroom 5:
+----------------
+Class 1: (26-41)
+
+Classroom 6:
+----------------
+Class 1: (36-40)
+Class 2: (41-47)
+
+Classroom 7:
+----------------
+Class 1: (40-41)
+
+Classroom 8:
+----------------
+Class 1: (40-50)
+

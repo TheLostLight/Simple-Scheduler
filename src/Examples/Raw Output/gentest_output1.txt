@@ -1,0 +1,36 @@
+File generated March 11, 2021 - 00:41:01
+
+Minimum classrooms: 7
+---------
+
+Classroom 1:
+----------------
+Class 1: (0-5)
+Class 2: (6-16)
+
+Classroom 2:
+----------------
+Class 1: (4-6)
+Class 2: (7-16)
+
+Classroom 3:
+----------------
+Class 1: (4-13)
+
+Classroom 4:
+----------------
+Class 1: (5-10)
+Class 2: (11-15)
+
+Classroom 5:
+----------------
+Class 1: (9-10)
+
+Classroom 6:
+----------------
+Class 1: (9-14)
+
+Classroom 7:
+----------------
+Class 1: (10-18)
+
